@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+    <title>Services</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+            background-color: #104b63fd;
+            min-height: 100vh;
+            max-height: 100%;
+        }
+
+
+        .header {
+            background-color: #104b63fd;
+            color: #FFF;
+            height: 60px;
+            padding: 18px 18px;
+            border-bottom: 2px solid #cc469a;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .header span {
+
+            color: #cc469a;
+        }
+
+        .header p {
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        li {
+            display: inline-block;
+            margin-left: 15px;
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #A95088;
+            cursor: pointer;
+        }
+        .services{
+            color: #A95088;
+        }
+
+        .subscribe {
+            display: flex;
+            justify-content: space-between;
+            background-color: #104b63fd;
+            height: 55px;
+            color: #FFF;
+            align-items: center;
+            padding: 0 15px;
+            font-size: 16px;
+        }
+
+        .subscribe-h4 {
+            font-weight: 700;
+        }
+
+        .subscribe-input {
+            height: 20px;
+            width: 200px;
+            padding: 5px;
+            border: none;
+            border-radius: 2px;
+        }
+
+        .subscribe-button {
+            height: 20px;
+            font-size: 11px;
+            /* padding: 6px 16px; */
+            background-color: #e9412a;
+            text-align: center;
+            border: none;
+            color: #fff;
+            border-radius: 2px;
+            width: 80px;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+        .service{
+            height: 463px;
+            background-color: #FFF;
+            display: flex;
+            padding: 32px 30px ;
+            justify-content: space-between;
+            
+
+        }
+        .left-side{
+            width: 687px;
+        }
+        .left-side h4{
+            margin-bottom: 10px;
+        }
+        .service-box{
+            background-color: #a0faff;
+            
+            margin-top: 3px;
+            padding: 16px 32px 16px 16px;
+            line-height: 18px;
+            /* width: 686px; */
+            border-radius: 2px;
+            min-height: 99px;
+            max-height: min-content;
+            
+        }
+       .service-box p{
+           font-size: 12px;
+           line-height: 20px;
+       }
+       .form{
+           width: 495px;
+           height: 217px;
+           background-color: #104b63fd;
+           color: #fff;
+           padding: 8px 24px 8px 8px;
+           display: flex;
+           flex-direction: column; margin-left: 20px;
+       }
+       .form h4{
+           margin-bottom: 8px;
+       }
+       .form input{
+           height: 18px;
+           width: 463px;
+           padding-left: 3px;
+           border: none; 
+           margin-bottom: 5px;
+       }
+       .form label{
+           font-size: 12px;
+           
+       }
+       .form textarea{
+           height: 32px;
+           width: 463px;
+           padding-left: 3px;
+           margin-bottom: 5px;
+           /* resize: none; */
+       }
+       .form button{
+           background-color: #e67848;
+           height: 25px;
+           width: 64px;
+           /* padding: 5px 16px; */
+           font-size: 14px;
+           color: #fff;
+           border: none;
+       }
+
+
+
+
+
+        .footer {
+            background-color: #104b63fd;
+            text-align: center;
+            padding: 16px 0 0;
+            color: #fff;
+        }
+
+        .footer p {
+            font-size: 10px;
+        }
+
+        .footer img {
+            height: 30px;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p><span>Clarusway</span> Web Design</p>
+        <ul>
+            <li><a class="home" href="./index.html">HOME</a></li>
+            <li><a class="about" href="./About.html">ABOUT</a></li>
+            <li><a class="services" href="./Services.html">SERVİCES</a></li>
+        </ul>
+    </div>
+    <div class="subscribe">
+        <div class="subscribe-h4">
+            <h4>Subscribe to Our Newsletter</h4>
+        </div>
+        <div>
+            <input class="subscribe-input" type="email" name="emain" id="email" placeholder="Enter Email...">
+            <input type="submit" value="Subscribe" class="subscribe-button">
+        </div>
+    </div>
+    <div class="service">
+        <div class="left-side">
+            <h4>Services</h4>
+            <div class="service-box">
+                <h4>Website Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dignissimos velit iste dolorem.</p>
+                <p>Pricing $1,000 - $3,000</p>
+            </div>
+            <div class="service-box">
+                <h4>Website Maintenance</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat perferendis praesentium similique.</p>
+                <p>Pricing $250 per month</p>
+            </div>
+            <div class="service-box">
+                <h4>Website Hosting</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eaque sit laudantium delectus?</p>
+                <p>Pricing $25 per month</p>
+            </div>
+        </div>
+        <div class="form">
+            <form action="./result.html">
+                <h4>Get a Quote</h4>
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name" placeholder="Name" ><br>
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Email Address"><br>
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message" cols="66" rows="2" placeholder="Message" ></textarea><br>
+                <button type="submit">Send</button>
+
+            </form>
+        </div>
+    </div>
+    
+
+
+    </div>
+    <div class="footer">
+        <p>Clarusway Web Design, Copyright © 2022</p>
+        <img src="./img/clarusway_logo.png" alt="" class="footer-img">
+    </div>
+
+</body>
+
+</html>

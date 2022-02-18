@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+    <title>Home</title>
+    <style>
+        html {
+            height: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .header {
+            background-color: #104b63fd;
+            color: #FFF;
+            height: 60px;
+            padding: 18px 18px;
+            border-bottom: 2px solid #cc469a;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        .header span {
+
+            color: #cc469a;
+        }
+
+        .header p {
+            font-size: 21px;
+            font-weight: 700;
+        }
+
+        li {
+            display: inline-block;
+            margin-left: 15px;
+            font-size: 12px;
+            margin-top: 6px;
+        }
+
+        a {
+            color: #FFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #A95088;
+            cursor: pointer;
+        }
+        .home{
+            color: #A95088;
+        }
+        body{
+            background-color: #104b63fd;
+            min-height: 100vh;
+            max-height: 100%;
+        }
+
+        /* main */
+        .main {
+            background-image: url(./img/showcase.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 120px 96px 124px;
+            height: 312px;
+            color: #FFF;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .main h2 {
+            font-size: 36px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+
+        .subscribe {
+            display: flex;
+            justify-content: space-between;
+            background-color: #104b63fd;
+            height: 55px;
+            color: #FFF;
+            align-items: center;
+            padding: 0 15px;
+            font-size: 16px;
+        }
+
+        .subscribe-h4 {
+            font-weight: 700;
+        }
+
+        .subscribe-input {
+            height: 20px;
+            width: 200px;
+            padding: 5px;
+            border:none;
+            border-radius: 2px;
+        }
+        .subscribe-button{
+            height: 20px;
+            font-size: 11px;
+            /* padding: 6px 16px; */
+            background-color: #e9412a;
+            text-align: center;
+            border: none;
+            color: #fff;
+            border-radius: 2px;
+            width: 80px;
+            cursor: pointer;
+            margin-left: 4px;
+        }
+        .section{
+            display: flex;
+            padding: 0 20px;
+            background-color: #fff;
+            
+        }
+        .section img{
+            height:60px ;
+            width: 60px;
+        }
+
+        .box{
+            justify-content: center;
+            text-align: center;
+            padding:14px ;
+        }
+        .box-title{
+            margin: 10px 0 5px;
+            font-size: 14px;
+        }
+        .box-p{
+            font-size: 12px;
+        }
+        .footer{
+            background-color: #104b63fd;
+            text-align: center;
+            padding: 16px 0 0;
+            color: #fff;
+        }
+        .footer p{
+            font-size: 10px;
+        }
+        .footer img{
+            height: 30px;
+            margin: 5px;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <p><span>Clarusway</span> Web Design</p>
+
+        <ul>
+            <li><a class="home" href="./index.html">HOME</a></li>
+            <li><a class="about" href="./About.html">ABOUT</a></li>
+            <li><a class="services" href="./Services.html">SERVİCES</a></li>
+        </ul>
+
+    </div>
+    <div class="main">
+        <div>
+            <h2>Professional Web Design</h2>
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia unde praesentium facilis impedit
+                distinctio?
+            </p>
+        </div>
+
+
+
+
+    </div>
+    <div class="subscribe">
+        <div class="subscribe-h4">
+            <h4>Subscribe to Our Newsletter</h4>
+        </div>
+        <div >
+            <input class="subscribe-input" type="email" name="emain" id="email" placeholder="Enter Email...">
+            <input type="submit" value="Subscribe" class="subscribe-button">
+        </div>
+
+
+
+
+    </div>
+    <div class="section">
+        <div class="box">
+            <img src="./img/logo_html.png" alt="" class="box-img">
+            <h4 class="box-title">HTML5 Markup</h4>
+            <p class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, impedit animi eaque
+                quidem ducimus qui!</p>
+        </div>
+        <div class="box">
+            <img src="./img/logo_css.png" alt="" class="box-img">
+            <h4 class="box-title">CSS3 Styling</h4>
+            <p class="box-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident neque maxime facilis
+                omnis sapiente libero?</p>
+        </div>
+        <div class="box">
+            <img src="./img/logo_brush.png" alt="" class="box-img">
+            <h4 class="box-title">Graphic Design</h4>
+            <p class="box-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nisi quod dicta repellendus
+                aspernatur fugit!</p>
+        </div>
+
+    </div>
+    <div class="footer">
+        <p>Clarusway Web Design, Copyright © 2022</p>
+        <img src="./img/clarusway_logo.png" alt="" class="footer-img">
+    </div>
+
+</body>
+
+</html>
